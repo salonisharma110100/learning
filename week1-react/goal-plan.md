@@ -7,8 +7,8 @@
 
 ## 💡 Daily Plan
 - Day 1: Setup ✅
-- Day 2: JS Variables + Arrow Functions
-- Day 3: Arrays, objects, destructuring
+- Day 2: JS Variables + Arrow Functions ✅
+- Day 3: Arrays, objects, destructuring ✅
 - Day 4: Promises & async/await
 - Day 5: HTML5/CSS Flexbox
 - Day 6: React setup + JSX
