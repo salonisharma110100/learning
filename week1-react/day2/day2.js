@@ -26,9 +26,7 @@ all
 
 
 //map, filter , reduce
-//map - Transform each element
-//filter - Keeps items that matches the condition
-//reduce - make the value to one
+
 
 
 //"Expense Tracker - Logic Only"
@@ -40,6 +38,11 @@ all
 
 
 const testData = [12, 23 , 46]
+//map - Transform each element
 const doubleData = testData.map((data) => {return data*2})
+//filter - Keeps items that matches the condition
 const filterData = doubleData.filter((data) => data<1000)
+//reduce - make the value to one
 const reduce = filterData.reduce((acc , data) =>  acc + data , 0)
+//flatMap - It allows you to map over an array and immediately flatten the result by one level — 
+// especially useful when each element you're mapping returns an array.

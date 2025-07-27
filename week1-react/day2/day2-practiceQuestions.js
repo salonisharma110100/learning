@@ -67,3 +67,18 @@ highestSpender
 
 const userLength = usersSpending.length
 const averagePurchase  = usersSpending.reduce((acc , user) => (acc + user.total)/userLength , 0)
+
+const cart = [
+  { item: "Shirt", price: 500 },
+  { item: "Pant", price: 1000 },
+  { item: "Socks", price: 100 },
+];
+
+const value = cart.reduce((s, item) => s+item.price , 0)
+value
+
+
+const getName = user => {
+  return user.name;
+};
+

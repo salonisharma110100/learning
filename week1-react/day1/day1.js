@@ -6,6 +6,7 @@ string = "Umang"
 
 //const - It is block scoped that can't be declared and updated
 const number = 12
+//number = 10 => Error
 
 
 //Arrow functions - Functions that are concise and remove the use of 'this'. They dont have their own this and inherit it from surroundings
@@ -14,7 +15,8 @@ const addition = (int1 , int2) => {
 }
 
 //Template Literal - It is easy and efficient way to declare strings using backticks
-
+  const value = `Hi ${user} , please find this information: ${userInfo}`
+  
 // 👉 Build: A simple Greeting Card Generator
 
 // ✅ Features:

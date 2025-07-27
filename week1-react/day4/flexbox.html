@@ -1,0 +1,55 @@
+<!-- Task: Build a Flexbox Navigation Bar
+✅ Requirements:
+
+A horizontal navigation bar using Flexbox
+
+Should contain 3-4 links (e.g., Home, About, Services, Contact)
+
+Links should be spaced out evenly
+
+Centered vertically
+
+Use internal CSS only-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Flexbox Navigation Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #333;
+      height: 60px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+</body>
+</html>
